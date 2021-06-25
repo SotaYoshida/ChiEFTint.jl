@@ -1,6 +1,6 @@
 # betaChiralEFT.jl
 
-**Julia code to generate Chiral EFT interactions (up to N3LO for now)**
+**Chiral EFTの相互作用を生成するJuliaコード**
 
 
 ## What is supported now?  
