@@ -6,9 +6,6 @@
 [README in Japanese (日本語はこちら)](https://github.com/SotaYoshida/betaChiralEFT.jl/blob/main/README_JP.md)
 
 
-For free-space interactions, this code reproduces the interactions with Fortran codes, which are written by Ruprecht Machleidt and widely used in this community.
-
-
 ## What is supported now?  
  
 * Free-space NN interaction (Entem&Machleidt type, up to N3LO) => Ref[1]  
