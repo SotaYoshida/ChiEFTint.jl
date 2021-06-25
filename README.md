@@ -1,9 +1,34 @@
 # betaChiralEFT.jl
 
-**Julia code to generate Chiral EFT interactions (up to N3LO for now)**
+**Julia code for Chiral EFT interactions**
 
 
 [README in Japanese (日本語はこちら)](https://github.com/SotaYoshida/betaChiralEFT.jl/blob/main/README_JP.md)
+
+## Quick Start
+
+1. Prepare Julia environment
+
+2. Download betaChiralEFT.jl  
+```
+$git clone https://github.com/SotaYoshida/betaChiralEFT.jl
+```
+
+3. Install other Julia Packages
+```
+$cd betaChiralEFT.jl
+$julia src/package_install.jl
+```
+
+4. Run the sample script
+```
+$julia -t 12 sample_run.jl
+```
+One can specify the number of execution threads like this.  
+(The -t/--threads command line argument requires at least Julia >= 1.5.)  
+
+All the parameters are given in "parameters.jl".
+Edit it by your hand and play with it!
 
 
 ## What is supported now?  
