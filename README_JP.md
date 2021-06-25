@@ -32,7 +32,7 @@ MIT License, Copyright (c) 2021 Sota Yoshida
 
 [1] [R. Machleidt, D. R. Entem, Phys.Rept.503:1-75,2011](https://www.sciencedirect.com/science/article/pii/S0370157311000457)  
 [2] [L. Huth et al., Phys. Rev. C 98, 044301 (2018)](https://journals.aps.org/prc/abstract/10.1103/PhysRevC.98.044301)  
-[3] [G.P.Kamuntavičius et al.,](https://www.sciencedirect.com/science/article/pii/S0375947401011010)  
+[3] [G.P.Kamuntavičius et al., Nucl. Phys. A 695 (2001) 191-201](https://www.sciencedirect.com/science/article/pii/S0375947401011010)  
 
 
 ## How to cite  
