@@ -7,9 +7,10 @@
  
 * Entem&Machleidt型のNN相互作用 => Ref[1]  
     -N3LOまで、流通するR.Machleidt氏のFortranコードと一致。
-* バレンス系の演算子を含むNN相互作用 ("NLOvs"まで, まだ全然最適化されていません) => Ref[2]
+* バレンス系の演算子を含むNN相互作用  => Ref[2]
+    -"NLOvs"まで, まだ全然最適化されていません
 
-* (relative)なmomentum spaceでのポテンシャルと、殻模型で言うところのTBMEs(Talmi-Moshinsky変換[3])が生成できます
+* (relative) momentum spaceでのポテンシャルと、殻模型で言うところのTBMEが生成(Talmi-Moshinsky変換[3])できます
 
 ## To be implemented:  
 
