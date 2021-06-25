@@ -35,7 +35,9 @@ Edit it by your hand and play with it!
  
 * Free-space NN interaction (Entem&Machleidt type, up to N3LO) => Ref[1]  
     -The author confirmed that results (up to N3LO) agree with those by widely used Fortran codes by R. Machleidt.
-* Valence space NN interaction (up to NLOvs, not optimized yet) => Ref[2]
+* Valence space NN interaction  => Ref[2]
+    - different from the so-called "effective interaction" for a valence space (c.f. Ref[2])
+    - up to NLOvs, not optimized yet
 
 * One can get NN interaction in (relative) momentum space or TBMEs in HO basis (by Talmi-Moshinsky trans. [3]).
 
@@ -59,7 +61,7 @@ MIT License, Copyright (c) 2021 Sota Yoshida
 
 [1] [R. Machleidt, D. R. Entem, Phys.Rept.503:1-75,2011](https://www.sciencedirect.com/science/article/pii/S0370157311000457)  
 [2] [L. Huth et al., Phys. Rev. C 98, 044301 (2018)](https://journals.aps.org/prc/abstract/10.1103/PhysRevC.98.044301)  
-[3] [G.P.Kamuntavičius et al.,](https://www.sciencedirect.com/science/article/pii/S0375947401011010)  
+[3] [G.P.Kamuntavičius et al., Nucl. Phys. A 695 (2001) 191-201](https://www.sciencedirect.com/science/article/pii/S0375947401011010)  
 
 
 ## How to cite  
