@@ -11,9 +11,9 @@ For free-space interactions, this code reproduces the interactions with Fortran 
 
 ## What is supported now?  
  
-* Free-space NN interaction (Entem&Machleidt type, up to N3LO)
+* Free-space NN interaction (Entem&Machleidt type, up to N3LO) => Ref[1]
 
-* Valence space NN interaction (not optimized yet)
+* Valence space NN interaction (up to NLOvs, not optimized yet) => Ref[2]
 
 ## To be implemented:  
 
@@ -21,7 +21,11 @@ For free-space interactions, this code reproduces the interactions with Fortran 
 
 * Density-dependent effective NN interaction from 3NFs
 
-Any suggestions, feedbacks, and "Issues&Pull requests" are welcomed.
+* SRG
+
+* and many more
+
+Any contributions, suggestions, feedbacks, and "Issues&Pull requests" are welcomed.
 
 ## Licence  
 
@@ -29,7 +33,8 @@ MIT License, Copyright (c) 2021 Sota Yoshida
 
 ## References
 
-[R. Machleidt, D. R. Entem, Phys.Rept.503:1-75,2011](https://www.sciencedirect.com/science/article/pii/S0370157311000457)
+[1] [R. Machleidt, D. R. Entem, Phys.Rept.503:1-75,2011](https://www.sciencedirect.com/science/article/pii/S0370157311000457)
+[2] [L. Huth et al., Phys. Rev. C 98, 044301 (2018)](https://journals.aps.org/prc/abstract/10.1103/PhysRevC.98.044301)
 
 ## How to cite  
 
