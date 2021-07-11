@@ -1,8 +1,9 @@
 include("./src/chiEFTint.jl")
 using .chiEFTint
 
+#make_chiEFTint(;is_plot=true)
 make_chiEFTint()
 
-## for prifiling
+## for profiling
 #using StatProfilerHTML
 #@profilehtml make_chiEFTint()

@@ -1,7 +1,4 @@
 #EM500N3LO
-#
-# Do not change the ordering
-#
 
 ## LO con  10^4 GeV^-2
 const C0_1S0  = -0.147167
@@ -34,8 +31,8 @@ const D_3PF2 = -0.465
 const D_3D3 = 5.66
 
 ## For pion exchange contribution
-## NNLO GeV GeV^-1
-const c1_NNLO = -0.81
+## NNLO GeV^-1
+const c1_NNLO =  -0.81
 const c2_NNLO =  2.80
 const c3_NNLO = -3.20
 const c4_NNLO =  5.40
@@ -50,3 +47,7 @@ const c_vs_2 = -0.28374
 const c_vs_3 =  0.02680
 const c_vs_4 = -0.34499
 const c_vs_5 = -0.16235
+
+## for eff3nf
+const cD =  1.621
+const cE = -0.143
