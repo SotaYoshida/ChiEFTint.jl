@@ -1,7 +1,9 @@
-# betaChiralEFT.jl
+# (Beta) ChiralEFT.jl
 
 **Julia code for Chiral EFT interactions**
 
+Note: The source code is currently undergoing final checks and is only available by request.  
+Please feel free to contact me!
 
 [README in Japanese (日本語はこちら)](https://github.com/SotaYoshida/betaChiralEFT.jl/blob/main/README_JP.md)
 
@@ -9,9 +11,9 @@
 
 1. Prepare Julia environment
 
-2. Download betaChiralEFT.jl  
+2. Download ChiralEFT.jl  
 ```
-$git clone https://github.com/SotaYoshida/betaChiralEFT.jl
+$git clone https://github.com/SotaYoshida/ChiralEFT.jl
 ```
 
 3. Install other Julia Packages
