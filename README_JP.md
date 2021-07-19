@@ -1,6 +1,6 @@
 # betaChiralEFT.jl
 
-**Chiral EFTの相互作用を生成するJuliaコード**
+**Chiral EFT(カイラル摂動論)による核子間相互作用を計算するJuliaコード**
 
 
 ## What is supported now?  
