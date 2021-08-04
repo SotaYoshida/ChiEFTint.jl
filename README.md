@@ -43,11 +43,11 @@ Edit it by your hand and play with it!
     - Only the two-body part (induced forces are not taken into account)
     - Slow (due to naive implemantation instead of efficient ODE solvers)
 
-* Valence space NN interaction [2]
+* Valence space NN interaction [3]
     - up to NLOvs, not optimized yet
     - different from the so-called "effective interaction" for a valence space
 
-* Density-dependent effective 2NF from three-nucleon force (3NF)  [3]
+* Density-dependent effective 2NF from three-nucleon force (3NF)  [4]
   
 
 ## To be implemented:  
@@ -67,7 +67,7 @@ MIT License, Copyright (c) 2021 Sota Yoshida
 [1] [R. Machleidt, D. R. Entem, Phys.Rept.503 (2011) 1-75](https://www.sciencedirect.com/science/article/pii/S0370157311000457)  
 [2] [G.P.Kamuntavičius et al., Nucl. Phys. A 695 (2001) 191-201](https://www.sciencedirect.com/science/article/pii/S0375947401011010)  
 [3] [L. Huth et al., Phys. Rev. C 98, 044301 (2018)](https://journals.aps.org/prc/abstract/10.1103/PhysRevC.98.044301)  
-
+[4] [M.Kohno, Phys. Rev. C 88, 064005 (2013)](https://journals.aps.org/prc/abstract/10.1103/PhysRevC.88.064005), [Erratum: Phys. Rev. C 96, 059903 (2017)](https://journals.aps.org/prc/abstract/10.1103/PhysRevC.96.059903) 
 
 ## How to cite  
 
