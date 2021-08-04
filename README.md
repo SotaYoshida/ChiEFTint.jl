@@ -41,7 +41,7 @@ Edit it by your hand and play with it!
 
 * Similarity Renormalization Group (SRG) to soften the NN interactions 
     - Only the two-body part (induced forces are not taken into account)
-    - Slow (due to naive implemantation instead of efficient ODE solvers)
+    - Slow (due to naive implemantation, could be resolved by introducing efficient ODE solvers)
 
 * Valence space NN interaction [3]
     - up to NLOvs, not optimized yet
