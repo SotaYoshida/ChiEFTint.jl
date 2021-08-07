@@ -1,4 +1,4 @@
-# ChiralEFT.jl (Beta) 
+# ChiralEFTint.jl (Beta) 
 
 **Julia code for Chiral EFT interactions**
 
