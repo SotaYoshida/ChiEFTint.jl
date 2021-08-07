@@ -5,7 +5,7 @@
 Note: The source code is currently undergoing final checks and is only available by request.  
 Please feel free to contact me!
 
-[README in Japanese (日本語はこちら)](https://github.com/SotaYoshida/ChiralEFT.jl/blob/main/README_JP.md)
+[README in Japanese (日本語はこちら)](https://github.com/SotaYoshida/ChiralEFTint.jl/blob/main/README_JP.md)
 
 ## Quick Start
 
