@@ -1,4 +1,4 @@
-# ChiEFTint.jl (Beta) 
+# chiEFTint.jl (Beta) 
 
 **Julia code for Chiral EFT interactions**
 
@@ -11,14 +11,14 @@ Please feel free to contact me!
 
 1. Prepare Julia environment
 
-2. Clone ChiEFTint.jl  
+2. Clone chiEFTint.jl  
 ```
-$git clone https://github.com/SotaYoshida/ChiEFTint.jl
+$git clone https://github.com/SotaYoshida/chiEFTint.jl
 ```
 
 3. Install other Julia Packages
 ```
-$cd ChiEFTint.jl
+$cd chiEFTint.jl
 $julia src/package_install.jl
 ```
 
