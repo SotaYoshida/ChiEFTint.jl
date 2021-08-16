@@ -1,4 +1,4 @@
-# ChiralEFTint.jl (Beta)
+# ChiEFTint.jl (Beta)
 
 **Chiral EFT(カイラル摂動論)による核子間相互作用を計算するJuliaコード**
 
