@@ -32,6 +32,8 @@ One can specify the number of execution threads like this.
 All the parameters are given in "parameters.jl".
 Edit it by your hand and play with it!
 
+If you are new to Julia and have some troubles regarding "PyCall" or "pyimport",
+plase comment out the ```using PyCall``` in ```src/chiEFTint.jl``` and ```src/bayesopt.jl```.
 
 ## What are supported now?  
  
