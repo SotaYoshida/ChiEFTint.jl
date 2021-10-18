@@ -54,7 +54,7 @@ plase comment out the ```using PyCall``` in ```src/chiEFTint.jl``` and ```src/ba
 
 ## To be implemented:  
 
-* NNN
+* NNN (+SRG in three-body space)
 
 * Higher order terms (N4LO, N3LOvs, etc.)
 
