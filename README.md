@@ -1,11 +1,11 @@
-# ChiralEFTint.jl (Beta) 
+# ChiEFTint.jl (Beta) 
 
 **Julia code for Chiral EFT interactions**
 
 Note: The source code is currently undergoing final checks and is only available by request.  
 Please feel free to contact me!
 
-[README in Japanese (日本語はこちら)](https://github.com/SotaYoshida/ChiralEFTint.jl/blob/main/README_JP.md)
+[README in Japanese (日本語はこちら)](https://github.com/SotaYoshida/ChiEFTint.jl/blob/main/README_JP.md)
 
 ## Quick Start
 
@@ -13,7 +13,7 @@ Please feel free to contact me!
 
 2. Clone chiEFTint.jl  
 ```
-$git clone https://github.com/SotaYoshida/ChiralEFTint.jl
+$git clone https://github.com/SotaYoshida/ChiEFTint.jl
 ```
 
 3. Install other Julia Packages
