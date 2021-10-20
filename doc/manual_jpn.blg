@@ -1,0 +1,114 @@
+This is upBibTeX, Version 0.99d-j0.33-u1.25 (utf8.uptex) (TeX Live 2019)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: manual_jpn.aux
+The style file: mod_apsrev4-2.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: manual_jpn.bib
+You can't pop an empty literal stack for entry EMrev
+while executing---line 3328 of file mod_apsrev4-2.bst
+0 is an integer literal, not a string, for entry EMrev
+while executing---line 3328 of file mod_apsrev4-2.bst
+You can't pop an empty literal stack for entry Kohno13
+while executing---line 3328 of file mod_apsrev4-2.bst
+0 is an integer literal, not a string, for entry Kohno13
+while executing---line 3328 of file mod_apsrev4-2.bst
+You can't pop an empty literal stack for entry Kohno17err
+while executing---line 3328 of file mod_apsrev4-2.bst
+0 is an integer literal, not a string, for entry Kohno17err
+while executing---line 3328 of file mod_apsrev4-2.bst
+You can't pop an empty literal stack for entry SY_MBPT
+while executing---line 3328 of file mod_apsrev4-2.bst
+0 is an integer literal, not a string, for entry SY_MBPT
+while executing---line 3328 of file mod_apsrev4-2.bst
+You can't pop an empty literal stack for entry Lukas18
+while executing---line 3328 of file mod_apsrev4-2.bst
+0 is an integer literal, not a string, for entry Lukas18
+while executing---line 3328 of file mod_apsrev4-2.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+apsrev4-2.bst 2019-01-14 (MD) hand-edited version of apsrev4-1.bst
+Control: key (0) 
+Control: author (72) initials jnrlst
+Control: editor formatted (1) identically to author
+Control: production of article title (-1) disabled
+Control: page (0) single
+1 is an integer literal, not a string,
+while executing---line 3530 of file mod_apsrev4-2.bst
+Control: year ) truncated
+Control: production of eprint (0) enabled
+ptr=2, stack=
+{EMrev}%
+[{\citenamefont {Entem}(2011)\citenamefont {Machleidt}\ and\ \citenamefont {Entem}}]
+---the literal stack isn't empty for entry EMrev
+while executing---line 3534 of file mod_apsrev4-2.bst
+ptr=2, stack=
+{Kohno13}%
+[{({\natexlab{a}})\citenamefont {Kohno}}]
+---the literal stack isn't empty for entry Kohno13
+while executing---line 3534 of file mod_apsrev4-2.bst
+ptr=2, stack=
+{Kohno17err}%
+[{({\natexlab{b}})\citenamefont {Kohno}}]
+---the literal stack isn't empty for entry Kohno17err
+while executing---line 3534 of file mod_apsrev4-2.bst
+ptr=2, stack=
+{SY_MBPT}%
+[{\emph {et~al.}(2018{\natexlab{a}})\citenamefont {Yoshida}, \citenamefont {Kohno}, \citenamefont {Abe}, \citenamefont {Otsuka}, \citenamefont {Tsunoda},\ and\ \citenamefont {Shimizu}}]
+---the literal stack isn't empty for entry SY_MBPT
+while executing---line 3534 of file mod_apsrev4-2.bst
+ptr=2, stack=
+{Lukas18}%
+[{\emph {et~al.}(2018{\natexlab{b}})\citenamefont {Huth}, \citenamefont {Durant}, \citenamefont {Simonis},\ and\ \citenamefont {Schwenk}}]
+---the literal stack isn't empty for entry Lukas18
+while executing---line 3534 of file mod_apsrev4-2.bst
+You've used 5 entries,
+            6078 wiz_defined-function locations,
+            1680 strings with 16256 characters,
+and the built_in function-call counts, 5334 in all, are:
+= -- 393
+> -- 120
+< -- 32
++ -- 42
+- -- 28
+* -- 784
+:= -- 514
+add.period$ -- 5
+call.type$ -- 5
+change.case$ -- 20
+chr.to.int$ -- 3
+cite$ -- 10
+duplicate$ -- 455
+empty$ -- 359
+format.name$ -- 64
+if$ -- 1072
+int.to.chr$ -- 3
+int.to.str$ -- 12
+missing$ -- 74
+newline$ -- 67
+num.names$ -- 15
+pop$ -- 192
+preamble$ -- 1
+purify$ -- 23
+quote$ -- 0
+skip$ -- 247
+stack$ -- 0
+substring$ -- 146
+swap$ -- 440
+text.length$ -- 14
+text.prefix$ -- 0
+top$ -- 8
+type$ -- 69
+warning$ -- 0
+while$ -- 15
+width$ -- 0
+write$ -- 102
+is.kanji.str$ -- 0
+(There were 16 error messages)

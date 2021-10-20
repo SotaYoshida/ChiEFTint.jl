@@ -1,0 +1,97 @@
+%apsrev4-2.bst 2019-01-14 (MD) hand-edited version of apsrev4-1.bst
+%Control: key (0)
+%Control: author (72) initials jnrlst
+%Control: editor formatted (1) identically to author
+%Control: production of article title (-1) disabled
+%Control: page (0) single
+%Control: year ) truncated
+%Control: production of eprint (0) enabled
+\begin{thebibliography}{5}%
+\makeatletter
+\providecommand \@ifxundefined [1]{%
+ \@ifx{#1\undefined}
+}%
+\providecommand \@ifnum [1]{%
+ \ifnum #1\expandafter \@firstoftwo
+ \else \expandafter \@secondoftwo
+ \fi
+}%
+\providecommand \@ifx [1]{%
+ \ifx #1\expandafter \@firstoftwo
+ \else \expandafter \@secondoftwo
+ \fi
+}%
+\providecommand \natexlab [1]{#1}%
+\providecommand \enquote  [1]{``#1''}%
+\providecommand \bibnamefont  [1]{#1}%
+\providecommand \bibfnamefont [1]{#1}%
+\providecommand \citenamefont [1]{#1}%
+\providecommand \href@noop [0]{\@secondoftwo}%
+\providecommand \href [0]{\begingroup \@sanitize@url \@href}%
+\providecommand \@href[1]{\@@startlink{#1}\@@href}%
+\providecommand \@@href[1]{\endgroup#1\@@endlink}%
+\providecommand \@sanitize@url [0]{\catcode `\\12\catcode `\$12\catcode
+  `\&12\catcode `\#12\catcode `\^12\catcode `\_12\catcode `\%12\relax}%
+\providecommand \@@startlink[1]{}%
+\providecommand \@@endlink[0]{}%
+\providecommand \url  [0]{\begingroup\@sanitize@url \@url }%
+\providecommand \@url [1]{\endgroup\@href {#1}{\urlprefix }}%
+\providecommand \urlprefix  [0]{URL }%
+\providecommand \Eprint [0]{\href }%
+\providecommand \doibase [0]{https://doi.org/}%
+\providecommand \selectlanguage [0]{\@gobble}%
+\providecommand \bibinfo  [0]{\@secondoftwo}%
+\providecommand \bibfield  [0]{\@secondoftwo}%
+\providecommand \translation [1]{[#1]}%
+\providecommand \BibitemOpen [0]{}%
+\providecommand \bibitemStop [0]{}%
+\providecommand \bibitemNoStop [0]{.\EOS\space}%
+\providecommand \EOS [0]{\spacefactor3000\relax}%
+\providecommand \BibitemShut  [1]{\csname bibitem#1\endcsname}%
+\let\auto@bib@innerbib\@empty
+%</preamble>
+ \bibitem{EMrev}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
+  {Machleidt}}\ and\ \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
+  {Entem}},\ }\href {https://doi.org/10.1016/j.physrep.2011.02.001} {\bibfield
+  {journal} {\bibinfo  {journal} {Phys. Rept.}\ }\textbf {\bibinfo {volume}
+  {503}},\ \bibinfo {pages} {1 } (\bibinfo {year} {2011})}\BibitemShut
+  {NoStop}%
+ \bibitem{Kohno13}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Kohno}},\ }\href {https://doi.org/10.1103/PhysRevC.88.064005} {\bibfield
+  {journal} {\bibinfo  {journal} {Phys. Rev. C}\ }\textbf {\bibinfo {volume}
+  {88}},\ \bibinfo {pages} {064005} (\bibinfo {year}
+  {2013}{\natexlab{a}})}\BibitemShut {NoStop}%
+ \bibitem{Kohno17err}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Kohno}},\ }\href {https://doi.org/10.1103/PhysRevC.96.059903} {\bibfield
+  {journal} {\bibinfo  {journal} {Phys. Rev. C}\ }\textbf {\bibinfo {volume}
+  {96}},\ \bibinfo {pages} {059903} (\bibinfo {year}
+  {2017}{\natexlab{b}})}\BibitemShut {NoStop}%
+ \bibitem{SY_MBPT}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Yoshida}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Kohno}},
+  \bibinfo {author} {\bibfnamefont {T.}~\bibnamefont {Abe}}, \bibinfo {author}
+  {\bibfnamefont {T.}~\bibnamefont {Otsuka}}, \bibinfo {author} {\bibfnamefont
+  {N.}~\bibnamefont {Tsunoda}},\ and\ \bibinfo {author} {\bibfnamefont
+  {N.}~\bibnamefont {Shimizu}},\ }\href
+  {https://doi.org/10.7566/JPSCP.23.013014} {\bibfield  {journal} {\bibinfo
+  {journal} {JPS Conf. Proc,}\ }\textbf {\bibinfo {volume} {23}},\ \bibinfo
+  {pages} {013014} (\bibinfo {year} {2018}{\natexlab{a}})}\BibitemShut
+  {NoStop}%
+ \bibitem{Lukas18}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {L.}~\bibnamefont
+  {Huth}}, \bibinfo {author} {\bibfnamefont {V.}~\bibnamefont {Durant}},
+  \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Simonis}},\ and\ \bibinfo
+  {author} {\bibfnamefont {A.}~\bibnamefont {Schwenk}},\ }\href
+  {https://doi.org/10.1103/PhysRevC.98.044301} {\bibfield  {journal} {\bibinfo
+  {journal} {Phys. Rev. C}\ }\textbf {\bibinfo {volume} {98}},\ \bibinfo
+  {pages} {044301} (\bibinfo {year} {2018}{\natexlab{b}})}\BibitemShut
+  {NoStop}%
+\end{thebibliography}%
