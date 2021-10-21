@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.14159265-p3.8.2-u1.25-190131-2.6 (utf8.uptex) (TeX Live 2019) (preloaded format=uplatex 2020.2.29)  20 OCT 2021 16:34
+This is e-upTeX, Version 3.14159265-p3.8.2-u1.25-190131-2.6 (utf8.uptex) (TeX Live 2019) (preloaded format=uplatex 2020.2.29)  21 OCT 2021 12:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1002,16 +1002,16 @@ LaTeX Font Info:    Font shape `JY2/hgt/m/n' will be
 File: ./pic/dirtree.pdf Graphic file (type pdf)
 <./pic/dirtree.pdf>
 
-Overfull \hbox (78.12509pt too wide) in paragraph at lines 151--163
+Overfull \hbox (78.12509pt too wide) in paragraph at lines 152--164
 [][][][] 
  []
 
 LaTeX Font Info:    Font shape `JT2/hmc/m/n' will be
-(Font)              scaled to size 8.32214pt on input line 164.
+(Font)              scaled to size 8.32214pt on input line 165.
 LaTeX Font Info:    Font shape `JY2/hmc/m/n' will be
-(Font)              scaled to size 8.32214pt on input line 164.
+(Font)              scaled to size 8.32214pt on input line 165.
 [2]
-Underfull \hbox (badness 10000) in alignment at lines 181--198
+Underfull \hbox (badness 10000) in alignment at lines 182--199
 [][][][][]
  []
 
@@ -1041,13 +1041,17 @@ LaTeX Font Warning: Font shape `JY2/hmc/b/n' undefined
 (Font)              using `JY2/hmc/bx/n' instead on input line 95.
 
 [3]) [4]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 224.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 224.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 225.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 225.
  (./manual_jpn.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 224.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 224.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 225.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 225.
 Package rerunfilecheck Info: File `manual_jpn.out' has not changed.
 (rerunfilecheck)             Checksum: 18A6FD7B263F98197BB1D747C3A5882B;497.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
  32080 strings out of 481526
@@ -1058,4 +1062,4 @@ Here is how much of TeX's memory you used:
  934 hyphenation exceptions out of 8191
  67i,15n,71p,1608b,992s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on manual_jpn.dvi (4 pages, 21864 bytes).
+Output written on manual_jpn.dvi (4 pages, 22432 bytes).

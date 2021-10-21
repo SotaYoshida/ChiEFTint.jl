@@ -51,18 +51,18 @@
 \item valence系の演算子を含むNN相互作用~\cite{Lukas18}
 \item IMSRG計算を用いた3体力LECsのベイズ最適化
 \end{itemize}
-などの計算が可能で運動量空間や殻模型計算用の相互作用ファイル(KSHELL/ShellModel.jl用)を生成することができる\footnote{ココで言う「殻模型計算の相互作用ファイル」は自由空間の相互作用の意味で、基本的に、殻模型でそのまま使ってもしょうがない。模型空間用の相互作用がほしければ、MBPT(EKK)やVS-IMSRGなど別途計算が必要。}。
+などの計算が可能で運動量空間や殻模型計算コード用の相互作用ファイル(KSHELL/ShellModel.jl用)を生成することができる\footnote{ココで言う「殻模型計算コード用の相互作用」は自由空間の相互作用の意味で、基本的には閉殻芯を仮定した殻模型計算にそのまま使ってもしょうがない。文献~\cite{Lukas18}に倣ってバレンス系の演算子を含めてのLECsを最適化するなら別。あるいは、模型空間用の相互作用がほしければ、MBPT(EKK)やVS-IMSRGなど別途計算が必要。}。
 
 
 
 \section{Julia環境の準備}
 
-Juliaのバイナリをダウンロードするか、Unix(Mac)/Linux環境ならwgetなどを使えばよい。
+Juliaのバイナリを\href{https://julialang.org/downloads/}{公式サイト}からダウンロードするか、Unix(Mac)/Linux環境ならwgetなどを使えばよい。
 
 2021年10月16日現在の最新版はv1.6.3で、
 
 \colorbox[gray]{0.9}{\path{$}wget \path{https://julialang-s3.julialang.org/bin/linux/x64/1.6/julia-1.6.3-linux-x86_64.tar.gz}}
-を実行し展開した後、\path{julia-1.6.3/bin/julia}にエイリアスを貼るなどすれば良い。
+を実行し展開した後、\path{julia-1.6.3/bin/julia}にエイリアスを貼るなどして使う。
 
 \subsection{REPL}
 上記の実行ファイルを実行すると、JuliaのREPL(対話的な実行環境)が開く。
@@ -109,6 +109,7 @@ GitHubからクローンする\footnote{\today 現在はコードはpublicでは
 
 を実行し使用しているパッケージをインストールする。
 \footnote{本来はパッケージ化して前述のProject/Manifest.tomlで自動で依存関係を整えるのが望ましいが簡単のためこの方法を採用している}
+その後
 
 \colorbox[gray]{0.9}{\path{$}julia -t 12 samplerun.jl}
 などと実行すると相互作用ファイルの生成ができる(はず)\footnote{Juliaではコマンドラインで-t オプションをつけるだけで使用するスレッド数を指定することが出来る}。
@@ -117,7 +118,7 @@ GitHubからクローンする\footnote{\today 現在はコードはpublicでは
 
 \path{ChiEFTint.jl/samplerun.jl}に引数無しの\path{make_chiEFTint()}という関数がある。
 \path{make_chiEFTint()}の実行時には、\path{ChiEFTint.jl/parameters.jl}で指定したパラメータ($e_\mathrm{max}$や$\hbar\omega$など)が使用される。ユーザーは主に\path{ChiEFTint.jl/parameters.jl}のみを編集すれば良い。
-またcoupling constants/Low-energy constants (LECs)は\path{ChiEFTint.jl/LEC.jl}にある\footnote{constを使ってglobal変数として与えている。一方で、実際の寄与を計算する各種関数の中ではLECsという辞書の値を参照して使っている。LECsを自分で最適化したりしたければ、辞書の対応するものの値を更新するように使えば良い。}。
+またcoupling constants/Low-energy constants (LECs)は\path{ChiEFTint.jl/LEC.jl}で定義されている\footnote{LEC.jl内ではconstを使ってglobal変数として与えている。一方で、実際の寄与を計算する各種関数の中ではLECsという辞書の値を参照して使っている。LECsを自分で最適化したりしたければ、辞書の対応するものの値を更新するようにして使えば良い。}。
 
 それぞれのファイルの簡単な説明やディレクトリ構造は図~\ref{fig:dir}の通り:
 
