@@ -50,7 +50,8 @@ please comment out the ```using PyCall``` in ```src/chiEFTint.jl``` and ```src/b
     - different from the so-called "effective interaction" for a valence space
 
 * Density-dependent effective 2NF from three-nucleon force (3NF)  [4]
-  
+ 
+* Spherical HF(Hartree-Fock) calculation and HFMBPT estimate of g.s. energy (up to 3rd order)
 
 ## To be implemented:  
 
