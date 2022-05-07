@@ -1,4 +1,6 @@
-# ChiEFTint.jl (Beta) 
+# ChiEFTint.jl 
+
+Note (2022/05/07): ChiEFTint.jl has been merged into the NuclearToolkit.jl https://github.com/SotaYoshida/NuclearToolkit.jl
 
 **Julia code for Chiral EFT interactions**
 
